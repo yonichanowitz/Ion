@@ -29,7 +29,7 @@ import org.bukkit.potion.PotionEffect
 import org.bukkit.potion.PotionEffectType
 import java.util.concurrent.TimeUnit
 
-object SpaceMechanics : IonServerComponent() {
+object PosionusEnvironment : IonServerComponent() {
 	override fun onEnable() {
 		Tasks.syncRepeat(10, 10) {
 			for (player in Bukkit.getOnlinePlayers()) {
